@@ -59,6 +59,10 @@ body {
     color: #000000;
     background-color:#f5f6f7 ;
 }
+#review {
+    background-color:#f5f6f7;
+    color: #000000;
+}
 .menu-left{
     /* background-color:#216cae; */
     height: 100px;
