@@ -137,3 +137,24 @@ function submit5() {
     para5[0].style.display = "block";
     namewrapper5[0].style.display = "block";
 }
+
+let menuOpen = false;
+const menuBtn = document.getElementsByClassName('menu-btn');
+var menuSecondary = document.getElementsByClassName('nav-container-secondary');
+function clicked() {
+    if (!menuOpen) {
+        menuBtn[0].classList.add('open');
+        menuOpen=true;
+        /* menuSecondary[0].style.display = "block"; */
+        menuSecondary[0].style.width ='100%';
+        
+    }
+    else {
+        menuBtn[0].classList.remove("open");
+        menuOpen = false;
+        
+        menuSecondary[0].style.width ='0%';
+    }
+    console.log("hello");
+    
+};
