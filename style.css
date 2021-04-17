@@ -468,6 +468,8 @@ footer {
     }
     .box {
         width: 100vw;
+        margin-bottom: 100px;
+        margin-top: 100px;
     }
     .textbox1,.textbox2,.textbox3,.textbox4,.textbox5 {
         width: 90vw;
@@ -480,6 +482,13 @@ footer {
     }
     #nav-secondary-review {
         background-color:#f5f6f7;
+    }
+    footer {
+        position:absolute;
+        bottom:-2900px;
+        text-align: center;
+        left: 50px;
+
     }
 
 }
