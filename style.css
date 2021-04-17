@@ -429,7 +429,7 @@ footer {
 
 
 /* <--------RESPONSE----------> */
-@media (min-width:0px) and (max-width:750px) {
+@media (min-width:0px) and (max-width:830px) {
     *{
         font-size:14px;
     }
@@ -487,7 +487,8 @@ footer {
         position:absolute;
         bottom:-2900px;
         text-align: center;
-        left: 50px;
+        /* background-color:red; */
+        width: 100vw;
 
     }
 
